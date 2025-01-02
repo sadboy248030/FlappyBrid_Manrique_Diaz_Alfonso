@@ -107,8 +107,6 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Ajusta el valor según lo necesites
 
         // Llamamos al método OnPlayerDeath para contar la muerte y mostrar el anuncio
-      
-
         StartCoroutine(WaitForDeathAnimation());
     }
 

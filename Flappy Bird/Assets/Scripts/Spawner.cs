@@ -27,12 +27,10 @@ public class Spawner : MonoBehaviour
         // Ajusta la posición en Y de los tubos en un rango aleatorio
         pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
 
-#if UNITY_STANDALONE || UNITY_EDITOR
-        // En PC y Editor, puedes ajustar la velocidad de generación de los tubos si lo necesitas
-        // Si no necesitas cambios específicos para PC, esta parte podría no ser necesaria.
-#elif UNITY_ANDROID || UNITY_IOS
-        // En móvil, puedes ajustar la tasa de generación o la posición si es necesario
-        // Esta sección también puede ser vacía si no hay cambios específicos para móviles.
+#if UNITY_ANDROID || UNITY_IOS
+            spawnRate = 1.5f; // Generación más lenta en móvil
+#else
+        spawnRate = 1f; // Generación más rápida en PC
 #endif
     }
 }

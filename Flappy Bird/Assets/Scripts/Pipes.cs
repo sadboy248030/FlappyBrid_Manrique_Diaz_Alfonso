@@ -15,18 +15,16 @@ public class Pipes : MonoBehaviour
         // Mueve los tubos a la izquierda
         transform.position += Vector3.left * speed * Time.deltaTime;
 
-#if UNITY_STANDALONE || UNITY_EDITOR
-        // En PC y Editor, simplemente destruye los objetos cuando salen de la pantalla
-        if (transform.position.x < leftEdge)
-        {
-            Destroy(gameObject);
-        }
-#elif UNITY_ANDROID || UNITY_IOS
-        // En móvil también destruimos los objetos fuera de la pantalla
-        if (transform.position.x < leftEdge)
-        {
-            Destroy(gameObject);
-        }
+#if UNITY_ANDROID || UNITY_IOS
+            speed = 3f; // Velocidad reducida para móviles
+#else
+        speed = 5f; // Velocidad normal en PC
 #endif
+
+        // Destruir objetos fuera de la pantalla
+        if (transform.position.x < leftEdge)
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -1,9 +1,0 @@
-com.DefaultCompany.FlappyBird.launcher-pngs-0 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
-com.DefaultCompany.FlappyBird.launcher-resValues-1 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
-com.DefaultCompany.FlappyBird.launcher-rs-2 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
-com.DefaultCompany.FlappyBird.launcher-mergeReleaseResources-3 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.DefaultCompany.FlappyBird.launcher-mergeReleaseResources-4 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.DefaultCompany.FlappyBird.launcher-merged_res-5 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
-com.DefaultCompany.FlappyBird.launcher-main-6 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
-com.DefaultCompany.FlappyBird.launcher-release-7 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
-com.DefaultCompany.FlappyBird.launcher-packaged_res-8 C:\proyecto\Flappy Bird\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release

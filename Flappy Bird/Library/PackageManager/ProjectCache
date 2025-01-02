@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638709135912462900
-    m_Hash: 1482405771
+      ticks: 638711679383579935
+    m_Hash: 212206195
   m_LockFileStatus:
     m_FilePath: C:/proyecto/Flappy Bird/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638709135912545217
-    m_Hash: 2078303476
+      ticks: 638711679383614950
+    m_Hash: 4042768025
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -597,6 +597,96 @@ m_ResolvedPackages:
     version: 2.0.22
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.services.levelplay@8.5.1
+  testable: 0
+  isDirectDependency: 1
+  version: 8.5.1
+  source: 1
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.services.levelplay@8.5.1
+  assetPath: Packages/com.unity.services.levelplay
+  name: com.unity.services.levelplay
+  displayName: Ads Mediation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "IMPORTANT UPGRADE NOTES: \n\nBefore updating from Ads Mediation v1.0.0
+    (or levelplay.unitypackage) to Ads Mediation v8.0.0+, complete the following
+    actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings,
+    you will need to back up your values and re-enter them once you have updated
+    to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/IronSource
+    folder. Delete the IronSource folder and its contents.\n2. Return to the Ads
+    Mediation package in Package Manager and click Update.\n3. Launch the LevelPlay
+    Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor
+    more information:\n\n\u25AA Migration guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-8-0-0/\n\u25AA
+    Troubleshooting steps: https://docs.unity.com/monetization-dashboard/en-us/manual/editor-levelplay-integration#Troubleshooting\n\n\nPACKAGE
+    DESCRIPTION:\n\nUse case: Supercharge your revenue growth.\n\n\u25AA Monetize
+    your game with Unity LevelPlay mediation, a monetization tool that allows advertisers
+    from multiple ad networks, including ironSource Ads and Unity Ads, to place competitive
+    bids to show ads in your game.\n\u25AA Use growth solutions, such as in-app bidding,
+    real time data reports, A/B testing, and cross promotion to implement sophisticated
+    monetization strategies. \n\nFor more information on how to use this package,
+    see the Unity LevelPlay documentation: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nSupported
+    platforms:\n\u25AA Android\n\u25AA iOS"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 8.0.0
+    - 8.1.0
+    - 8.2.0
+    - 8.3.0
+    - 8.4.0
+    - 8.4.1
+    - 8.5.0
+    - 8.5.1
+    compatible:
+    - 8.5.1
+    recommended: 8.5.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.services.core
+    version: 1.8.1
+  resolvedDependencies:
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638688171663860000
+  documentationUrl: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: b9d8f6273ff281deddb2a483b1059a91a4bd56f1
+    path: 
+  unityLifecycle:
+    version: 8.5.1
+    nextVersion: 
+    recommendedVersion: 8.5.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -3286,6 +3376,107 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.services.core@1.14.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.14.0
+  source: 1
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.services.core@1.14.0
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    - 1.14.0
+    compatible:
+    - 1.14.0
+    recommended: 1.14.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638684041320270000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 64962022211031c9e26ceec024d3587ea8e05a17
+    path: 
+  unityLifecycle:
+    version: 1.14.0
+    nextVersion: 
+    recommendedVersion: 1.14.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.animation@9.1.3
   testable: 0
   isDirectDependency: 0
@@ -4300,6 +4491,85 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.1.7
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    compatible:
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    // Método para jugar el juego, cargando la escena principal
     public void Play()
     {
-        // Cargar la escena del juego (asegúrate de que esté en el Build Settings)
+        // Cargar la escena del juego (asegúrate de que "Flappy Brid" esté en el Build Settings)
         SceneManager.LoadScene("Flappy Brid");
     }
 
+    // Método para salir de la aplicación
     public void Exit()
     {
-        Debug.Log("Saliendo de la aplicación GG");
+        Debug.Log("Saliendo de la aplicación...");
+
+        // Cerrar la aplicación en una compilación
         Application.Quit();
 
-        // Para probar en el editor (no funcionará en un build, solo en el editor)
 #if UNITY_EDITOR
+        // Solo para el editor de Unity (no afecta builds)
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
     }

@@ -140,4 +140,28 @@ public class GameManager : MonoBehaviour
 
         Time.timeScale = 1f;
     }
+
+#if UNITY_ANDROID || UNITY_IOS
+    // Para dispositivos móviles, el manejo de los botones puede ser táctil si es necesario
+    public void OnExitButtonClicked()
+    {
+        ExitToMenu();
+    }
+
+    public void OnRetryButtonClicked()
+    {
+        RetryGame();
+    }
+#elif UNITY_STANDALONE || UNITY_EDITOR
+    // En PC o editor, podrías querer manejar los botones con el mouse o teclado
+    public void OnExitButtonClicked()
+    {
+        ExitToMenu();
+    }
+
+    public void OnRetryButtonClicked()
+    {
+        RetryGame();
+    }
+#endif
 }
