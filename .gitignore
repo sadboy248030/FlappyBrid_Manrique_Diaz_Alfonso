@@ -1,0 +1,5 @@
+# Ignorar archivos generados por Unity
+/Library/
+/Temp/
+/obj/
+/Build/
