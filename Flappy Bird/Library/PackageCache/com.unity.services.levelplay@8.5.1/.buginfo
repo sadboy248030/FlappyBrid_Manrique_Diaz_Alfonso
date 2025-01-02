@@ -1,4 +1,0 @@
-system: jira
-server: jira.unity3d.com
-project: MEDISDK
-issuetype: Bug
