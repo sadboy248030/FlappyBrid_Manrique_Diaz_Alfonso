@@ -63,7 +63,7 @@ Este proyecto es un clon en 3D del famoso juego **Flappy Bird**, desarrollado co
 - **Scripts/**: Scripts C# para la jugabilidad, el control del personaje, la generación de tuberías y la integración de anuncios.
 
 ## Requisitos
-- **Unity**: Versión 2021.3.0f1 o superior.
+- **Unity**: Versión 2022.3.55f o superior.
 - **Plataforma de destino**: Android y PC.
 - **SDK de Unity Ads**: Configurado en el proyecto.
 
@@ -78,5 +78,5 @@ Este proyecto es un clon en 3D del famoso juego **Flappy Bird**, desarrollado co
 4. Compilar y exportar el APK.
 
 ## Autor
-- **Nombre**: Manrique Díaz Alfonso
+- **Nombre**: Manrique Díaz Alfonso 😎
 - **Actividad**: Práctica 4 - Desarrollo de Entornos Interactivos Multidispositivo
