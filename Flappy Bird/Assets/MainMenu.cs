@@ -21,8 +21,26 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
 
 #if UNITY_EDITOR
-        // Solo para el editor de Unity (no afecta builds)
         UnityEditor.EditorApplication.isPlaying = false;
+#else
+        if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            // En móviles, puedes mostrar un mensaje o hacer otra acción
+            Debug.Log("Saliendo de la aplicación...");
+            Application.Quit();
+        }
+        else
+        {
+            // En PC o Mac, salir normalmente
+            Application.Quit();
+        }
 #endif
+    }
+
+    // Método para ir a los créditos
+    public void GoToCredits()
+    {
+        // Cargar la escena de créditos (asegúrate de que el nombre coincide con el de la escena)
+        SceneManager.LoadScene("Credits");
     }
 }

@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\proyecto\\Flappy Bird\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|c:\\proyecto\\flappy bird\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\adsinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\adsinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|c:\\proyecto\\flappy bird\\assets\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\pipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\interstitialadexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interstitialadexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\creditstextanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creditstextanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|C:\\proyecto\\Flappy Bird\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E10C7-98A1-E18C-E3D1-1B0603687006}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,105 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AdManager.cs",
+              "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\AdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AdManager.cs",
+              "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\AdManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AdManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvyQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:51:16.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwG0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAowH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:05:32.658Z",
-              "IsPinned": true
+              "WhenOpened": "2024-12-21T14:05:32.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreditsTextAnimation.cs",
+              "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\CreditsTextAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreditsTextAnimation.cs",
+              "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\CreditsTextAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreditsTextAnimation.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:34:55.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CreditsController.cs",
+              "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\CreditsController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreditsController.cs",
+              "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\CreditsController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreditsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:53:08.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAwwKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwGQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T18:34:54.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InterstitialAdExample.cs",
-              "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\InterstitialAdExample.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InterstitialAdExample.cs",
-              "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\InterstitialAdExample.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InterstitialAdExample.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:03:15.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdsInitializer.cs",
-              "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\AdsInitializer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AdsInitializer.cs",
-              "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\AdsInitializer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AdsInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:02:28.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\MainMenu.cs",
               "RelativeToolTip": "Assets\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:53:52.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:53:52.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spawner.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T16:44:18.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pipes.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Pipes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pipes.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Pipes.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pipes.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T18:22:20.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Parallax.cs",
               "DocumentMoniker": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Parallax.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax.cs",
               "ToolTip": "C:\\proyecto\\Flappy Bird\\Assets\\Scripts\\Parallax.cs",
               "RelativeToolTip": "Assets\\Scripts\\Parallax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:14:50.321Z"
+              "WhenOpened": "2024-12-21T16:14:50.321Z",
+              "EditorCaption": ""
             }
           ]
         }

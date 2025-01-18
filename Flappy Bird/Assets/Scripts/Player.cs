@@ -56,8 +56,7 @@ public class Player : MonoBehaviour
         // Control por teclado o mouse para PC
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            direction = Vector3.up * strength;
-            animator.SetTrigger("Fly"); // Cambia a la animación de vuelo
+            Jump();
         }
 #elif UNITY_ANDROID || UNITY_IOS
         // Control táctil para dispositivos móviles
@@ -66,8 +65,7 @@ public class Player : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began)
             {
-                direction = Vector3.up * strength;
-                animator.SetTrigger("Fly"); // Cambia a la animación de vuelo
+                Jump();
             }
         }
 #endif
@@ -93,6 +91,12 @@ public class Player : MonoBehaviour
         {
             gameManager.IncreaseScore(); // Incrementa la puntuación
         }
+    }
+
+    private void Jump()
+    {
+        direction = Vector3.up * strength;
+        animator.SetTrigger("Fly"); // Cambia a la animación de vuelo
     }
 
     private void TriggerDeath()

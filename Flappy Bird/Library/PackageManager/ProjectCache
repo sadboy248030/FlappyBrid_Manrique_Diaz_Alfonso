@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638711679383579935
-    m_Hash: 212206195
+      ticks: 638727298093102132
+    m_Hash: 2807379536
   m_LockFileStatus:
     m_FilePath: C:/proyecto/Flappy Bird/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638711679383614950
-    m_Hash: 4042768025
+      ticks: 638727298093154008
+    m_Hash: 1249547126
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -602,12 +602,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.services.levelplay@8.5.1
+- packageId: com.unity.services.levelplay@8.6.0
   testable: 0
   isDirectDependency: 1
-  version: 8.5.1
+  version: 8.6.0
   source: 1
-  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.services.levelplay@8.5.1
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.services.levelplay@8.6.0
   assetPath: Packages/com.unity.services.levelplay
   name: com.unity.services.levelplay
   displayName: Ads Mediation
@@ -617,24 +617,25 @@ m_ResolvedPackages:
     url: 
   category: 
   type: 
-  description: "IMPORTANT UPGRADE NOTES: \n\nBefore updating from Ads Mediation v1.0.0
-    (or levelplay.unitypackage) to Ads Mediation v8.0.0+, complete the following
-    actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings,
-    you will need to back up your values and re-enter them once you have updated
-    to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/IronSource
-    folder. Delete the IronSource folder and its contents.\n2. Return to the Ads
-    Mediation package in Package Manager and click Update.\n3. Launch the LevelPlay
-    Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor
-    more information:\n\n\u25AA Migration guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-8-0-0/\n\u25AA
+  description: "After you've installed the Ads Mediation package, create a LevelPlay
+    account and complete your app's ad format integrations if you haven't done so
+    already. Here are the next steps: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nIMPORTANT
+    UPGRADE NOTES: \n\nBefore updating from Ads Mediation v1.0.0 (or levelplay.unitypackage)
+    to Ads Mediation v8.0.0+, complete the following actions to migrate smoothly:\n\nPlease
+    note: if you are using Developer Settings, you will need to back up your values
+    and re-enter them once you have updated to the latest version of the SDK.\n\n1.
+    In your Project window, locate the Assets/IronSource folder. Delete the IronSource
+    folder and its contents.\n2. Return to the Ads Mediation package in Package Manager
+    and click Update.\n3. Launch the LevelPlay Network Manager from the Ads Mediation
+    top menu and reinstall network adapters.\n\nFor more information:\n\n\u25AA Migration
+    guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-8-0-0/\n\u25AA
     Troubleshooting steps: https://docs.unity.com/monetization-dashboard/en-us/manual/editor-levelplay-integration#Troubleshooting\n\n\nPACKAGE
     DESCRIPTION:\n\nUse case: Supercharge your revenue growth.\n\n\u25AA Monetize
     your game with Unity LevelPlay mediation, a monetization tool that allows advertisers
     from multiple ad networks, including ironSource Ads and Unity Ads, to place competitive
     bids to show ads in your game.\n\u25AA Use growth solutions, such as in-app bidding,
     real time data reports, A/B testing, and cross promotion to implement sophisticated
-    monetization strategies. \n\nFor more information on how to use this package,
-    see the Unity LevelPlay documentation: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nSupported
-    platforms:\n\u25AA Android\n\u25AA iOS"
+    monetization strategies. \n\nSupported platforms:\n\n\u25AA Android\n\u25AA iOS"
   status: 0
   errors: []
   versions:
@@ -648,9 +649,11 @@ m_ResolvedPackages:
     - 8.4.1
     - 8.5.0
     - 8.5.1
+    - 8.6.0
     compatible:
     - 8.5.1
-    recommended: 8.5.1
+    - 8.6.0
+    recommended: 8.6.0
     deprecated: []
   dependencies:
   - name: com.unity.services.core
@@ -675,18 +678,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638688171663860000
+  datePublishedTicks: 638727272772370000
   documentationUrl: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: b9d8f6273ff281deddb2a483b1059a91a4bd56f1
+    revision: 87ab674f75b41ce479626cf5e4ea34074d92611d
     path: 
   unityLifecycle:
     version: 8.5.1
     nextVersion: 
-    recommendedVersion: 8.5.0
+    recommendedVersion: 8.6.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -832,12 +835,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.textmeshpro@3.0.7
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
-  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.textmeshpro@3.0.7
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1012,13 +1015,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638410382150000000
+  datePublishedTicks: 638515173480000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.7
@@ -1272,12 +1275,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.visualscripting@1.9.4
+- packageId: com.unity.visualscripting@1.9.5
   testable: 0
   isDirectDependency: 1
-  version: 1.9.4
+  version: 1.9.5
   source: 1
-  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.visualscripting@1.9.4
+  resolvedPath: C:\proyecto\Flappy Bird\Library\PackageCache\com.unity.visualscripting@1.9.5
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1354,13 +1357,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638488567680000000
+  datePublishedTicks: 638659692270900000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
+    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
     path: 
   unityLifecycle:
     version: 1.9.4
@@ -4432,10 +4435,13 @@ m_ResolvedPackages:
     - 1.1.5
     - 1.1.6
     - 1.1.7
+    - 1.1.8
     - 1.2.0
+    - 1.2.1
     compatible:
     - 1.1.7
-    recommended: 1.1.7
+    - 1.1.8
+    recommended: 1.1.8
     deprecated: []
   dependencies:
   - name: com.unity.2d.common

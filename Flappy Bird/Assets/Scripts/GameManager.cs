@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOver;     // Referencia al panel de Game Over
     public GameObject exitButton;   // Referencia al botón de salida
     public GameObject retryButton;  // Referencia al botón de reinicio
-    public InterstitialAdExample adManager; // Referencia al gestor de anuncios
+    public AdManager adManager;     // Referencia al AdManager
 
     private int score;              // Puntuación del jugador
     private int deathCount = 0;      // Contador de muertes
@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(false);  // Ocultar Game Over al inicio
         exitButton.SetActive(false);
         retryButton.SetActive(false);
+
+        // Asegúrate de que el AdManager está referenciado
 
         StartGame();
     }
@@ -78,10 +80,10 @@ public class GameManager : MonoBehaviour
         if (deathCount >= minDeaths && deathCount <= maxDeaths)
         {
             // Mostrar el anuncio
-            if (adManager != null)
+            if (adManager != null && !isWaitingForAd)
             {
                 isWaitingForAd = true;
-                adManager.ShowAd(); // Mostrar el anuncio sin verificar si está listo
+                adManager.ShowAd(); // Mostrar el anuncio
             }
         }
     }
@@ -96,6 +98,7 @@ public class GameManager : MonoBehaviour
     public void ExitToMenu()
     {
         SceneManager.LoadScene("Home Menu");
+        
     }
 
     public void RetryGame()
@@ -142,7 +145,6 @@ public class GameManager : MonoBehaviour
     }
 
 #if UNITY_ANDROID || UNITY_IOS
-    // Para dispositivos móviles, el manejo de los botones puede ser táctil si es necesario
     public void OnExitButtonClicked()
     {
         ExitToMenu();
@@ -153,7 +155,6 @@ public class GameManager : MonoBehaviour
         RetryGame();
     }
 #elif UNITY_STANDALONE || UNITY_EDITOR
-    // En PC o editor, podrías querer manejar los botones con el mouse o teclado
     public void OnExitButtonClicked()
     {
         ExitToMenu();

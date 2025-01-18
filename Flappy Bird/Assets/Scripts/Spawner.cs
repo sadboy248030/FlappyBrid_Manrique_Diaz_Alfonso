@@ -9,6 +9,13 @@ public class Spawner : MonoBehaviour
 
     private void OnEnable()
     {
+        // Ajusta la tasa de generación según la plataforma solo una vez al principio
+#if UNITY_ANDROID || UNITY_IOS
+        spawnRate = 1.5f; // Generación más lenta en móviles
+#else
+            spawnRate = 1f; // Generación más rápida en PC
+#endif
+
         // Comienza a invocar el método Spawn a intervalos regulares
         InvokeRepeating(nameof(Spawn), spawnRate, spawnRate);
     }
@@ -26,11 +33,5 @@ public class Spawner : MonoBehaviour
 
         // Ajusta la posición en Y de los tubos en un rango aleatorio
         pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
-
-#if UNITY_ANDROID || UNITY_IOS
-            spawnRate = 1.5f; // Generación más lenta en móvil
-#else
-        spawnRate = 1f; // Generación más rápida en PC
-#endif
     }
 }
