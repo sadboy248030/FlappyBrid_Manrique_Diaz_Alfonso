@@ -1,5 +1,5 @@
 
-# Flappy Bird 3D para Android y  PC
+# Flappy Bird 2D para Android y  PC
 
 Este proyecto es un clon en 3D del famoso juego **Flappy Bird**, desarrollado como parte de la **Práctica 4: Desarrollo para móviles** del curso **Desarrollo de Entornos Interactivos Multidispositivo**. La aplicación está diseñada para dispositivos Android y PC adaptada según los requerimientos proporcionados.
 
